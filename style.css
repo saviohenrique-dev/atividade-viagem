@@ -1,0 +1,90 @@
+*{
+    
+    padding: 0%;
+    margin: 0%;
+    }
+    
+    h1{
+        color: grey;
+        font-size: 20px;
+        padding: 15px;
+    }
+    li a{
+    
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        padding: 25px;
+     }
+    
+     .p{
+        color:#ffff;
+        font-size: 20px;
+        padding: 25px;
+     }
+    
+    
+    ul{
+        display: flex; /*ativa a propriedade de alinhamento*/
+        flex-direction: row; /*coloca os elementos na horizontal*/
+    }
+    
+    li{
+    list-style: none; /*remove os pontos das lista*/
+    }
+    
+    nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    }
+    
+    .btn{
+        background-color: #EB662B;
+        border-radius: 55px;
+        height: 44px;
+        width: 83.3px;
+        border: none;
+        color: #ffffff;
+     }
+    
+    
+    .logo{
+    height: 25px;
+    width: 35px;
+     }
+
+     .banner{
+        height: 630px;
+        width: 1600px;
+        background-image: url("./assents/img1.jpg"); /*ele adiciona uma imagem como fundo*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        }
+        .banner-estrutura{
+            width: 400px;
+            margin: 30px;
+         }
+         
+         .section-banner {
+            display: flex;
+            justify-content: center;  /* Centraliza horizontalmente */
+            padding: 40px 0;   /* Mantém espaço ao redor */
+            color: grey;
+            }
+        
+            .titulo {
+           color: #ffffff;
+           font-size: 35px;
+           font-weight: bold;
+           }
+        
+            .estrutura-titulo{
+           justify-content: center;
+           display: flex;
+           padding: 30px;
+          }
