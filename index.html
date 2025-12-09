@@ -1,64 +1,171 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-<body>
-    <header> 
-        <nav>
-        <div>
-          <img id="logo" src="./assents/Link → logo-1.svg.png" alt="logo">
-        </div>
-        <div class="cor cinza"></div>
-        <li>
-            <h1 href="">Search destinations ar activities</h1>
-        </li>
-        <ul>
-          <li>
-            <a href="#">Destination</a>
-          </li>
-          <li>
-            <a href="#">activities</a>
-          </li>
-          <li>
-            <a href="#">USD</a>
-          </li>
-          <li>
-            <a href="#">sign up</a>
-          </li>
-          <button  class="btn">log in</button>
-          <div class="caixa-cores">
-            <div class="cor vermelho"></div>
-        </ul>
 
-        <div class="caixa-icones">
-          <i class="bi bi-person-fill"></i>
-          <i class="bi bi-cart"></i>
-           
-        </div>
-       </nav>
-        <main>
-          <section class="section-banner">
-  
-            <div class="banner"> <!--Imagem do nosso banner -->
-              <div class="banner-estrutura">
-            
-                <p class="texto-banner">
-                <h1>  Your world of joy!</h1>
-                </p>
-              <p class="texto">
-                From local escapes to far-flung adventures, find what makes you happy anytime, anywhere
-              </p>
-            <button class="btn">Search</button> <!--A tag buttor serve para criar um botão-->
-              </div>
-            
+<body>
+    <header>
+        <nav>
+
+            <img src="./assents/logo-1.svg fill.png" alt="" class="logo">
+            <div class="barra-pesquisa">
+                <p class="btn-pesquisa">Search destinations or activities</p>
             </div>
-            
-            </section>
-        </main>
+            <div>
+                <ul>
+                    <li> <a href="#">Destinations</a> </li>
+                    <li> <a href="">Activities</a> </li>
+                    <li><a href="">USD</a></li>
+                    <li><a href="">Sign up</a></li>
+                    <li class="botao-login">Log in</li>
+                </ul>
+            </div>
+        </nav>
     </header>
+    <main>
+        <section class="section-banner">
+            <div class="banner">
+                <div class="txt-baner1">
+                    <p>Your world of joy</p>
+                </div>
+                <div class="txt-baner2">
+                    <p>From local escapes to far-flung adventures, find what makes you happy anytime, anywhere</p>
+                </div>
+                <div class="caixa-datas-geral">
+
+                    <div class="caixa-datas1">
+                        <div class="quadrado"></div>
+                        <div class="texto-lado-quadrado">
+                            <p class="txt-datas">Where</p>
+                            <p class="txt-datas2">Search destinations</p>
+                        </div>
+                    </div>
+
+                    <div class="caixa-datas1">
+                        <div class="quadrado"></div>
+                        <div class="texto-lado-quadrado">
+                            <p class="txt-datas">When</p>
+                            <p>February 05 ~ March 14</p>
+                        </div>
+                    </div>
+
+                    <div class="caixa-datas1">
+                        <div class="quadrado"></div>
+                        <div class="texto-lado-quadrado">
+                            <p class="txt-datas">Tour Type</p>
+                            <p class="txt-datas2">All tour</p>
+                        </div>
+                    </div>
+
+                    <div class="caixa-btn-laranja">
+                        <div class="quadrado-laranja"></div>
+                        <div class="texto-boxlaranja">
+                            <p>Search</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="section-banner">
+
+            <div class="box-section2">
+                <p class="txt-boxdois">Why choose Tourz</p>
+                <div class="row">
+
+                    <div class="caixa-boxsection2">
+                        <div> <img src="./assents/ticket.svg.png" alt="ticket"></div>
+                        <p class="titulo-sec2">Ultimate flexibility</p>
+                        <p class="p2"> You're in control, with free cancellation and payment options to satisfy any plan or budget.
+                        </p>
+                    </div>
+
+                    <div class="caixa-boxsection2">
+                        <div> <img src="./assents/hot-air-balloon.svg.png" alt="balao"></div>
+                        <p class="titulo-sec2">Memorable experiences</p>
+                        <p class="p2">Browse and book tours and activities so incredible, you'll want to tell your friends.
+                        </p>
+                    </div>
+
+                    <div class="caixa-boxsection2">
+                        <div> <img src="./assents/diamond.svg.png" alt="diamante"></div>
+                        <p class="titulo-sec2">Quality at our core</p>
+                        <p class="p2"> High-quality standards. Millions of reviews. A tourz company.
+                        </p>
+                    </div>
+
+                    <div class="caixa-boxsection2">
+                        <div> <img src="./assents/medal.svg.png" alt="medalhao"></div>
+                        <p class="titulo-sec2">Award-winning support</p>
+                        <p class="p2"> New price? New plan? No problem. We're here to help, 24/7.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="secao-trending">
+<div class="container">
+  <div class="cabecalho-secao">
+    <h2>Trending destinations</h2>
+    <a class="ver-todos">see all</a>
+  </div>
+
+  <div class="destinos-circulares">
+    <div class="destino">
+      <img src="assents/torre.png" alt="">
+      <p>Paris</p>
+      <small>100+ Tours</small>
+    </div>
+    <div class="destino">
+      <img src="assents/singapore.png" alt="">
+      <p>Singapore</p>
+      <small>300+ Tours</small>
+    </div>
+    <div class="destino">
+      <img src="assents/roma.png" alt="">
+      <p>Roma</p>
+      <small>400+ Tours</small>
+    </div>
+    <div class="destino">
+      <img src="assents/bangkok.png" alt="">
+      <p>Bangkok</p>
+      <small>100+ Tours</small>
+    </div>
+    <div class="destino">
+      <img src="assents/bali.png" alt="">
+      <p>Bali</p>
+      <small>600+ Tours</small>
+    </div>
+    <div class="destino">
+      <img src="assents/phuket.png" alt="">
+      <p>Phuket</p>
+      <small>200+ Tours</small>
+    </div>
+    <div class="destino">
+      <img src="assents/tokyo.png" alt="">
+      <p>Tokyo</p>
+      <small>700+ Tours</small>
+    </div>
+    <div class="destino">
+      <img src="assents/Cappadocia.png" alt="">
+      <p>Cappadocia</p>
+      <small>900+ Tours</small>
+    </div>
+
+  </div>
+
+
+</div>
+        </section>
+    </main>
 </body>
+
 </html>

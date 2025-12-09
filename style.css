@@ -1,90 +1,234 @@
+@font-face{
+    font-family: Inter ;
+    src: url(./assents/font/Inter-VariableFont_opsz\,wght.ttf) ;
+}
 *{
-    
-    padding: 0%;
-    margin: 0%;
+    margin: 0;
+    padding: 0;
+    font-family:Inter ;
     }
     
-    h1{
-        color: grey;
-        font-size: 20px;
-        padding: 15px;
+    body{ background-color: #ffffff;
+        margin: 20px;
+    }
+    .caixa-inicio{
+        background-color: cornflowerblue;
+      
     }
     li a{
     
         text-decoration: none;
-        color: #000;
+        color: black;
         font-size: 20px;
-        padding: 25px;
-     }
-    
-     .p{
-        color:#ffff;
-        font-size: 20px;
-        padding: 25px;
-     }
-    
-    
-    ul{
-        display: flex; /*ativa a propriedade de alinhamento*/
-        flex-direction: row; /*coloca os elementos na horizontal*/
-    }
-    
-    li{
-    list-style: none; /*remove os pontos das lista*/
-    }
-    
-    nav{
+        padding: 20px;}
+       
+ul{
+ display: flex;
+ justify-content: row;
+ align-items: center;
+}
+          
+li{ 
+list-style: none;
+}
+          
+nav{         
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+background-color: #ffffff;
+}
+
+.botao-login{
+    background-color: orangered;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 100px;
+   width: 80px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.btn-pesquisa{
+    color: darkgray;
+}
+.barra-pesquisa{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.section-banner{
+margin: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.banner{
+    width: 1800px;
+    height: 700px;
+    background-image: url(./assents/Section.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.txt-baner1{
+    font-size: 100px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.txt-baner2{
+    font-size: 20px;
+    color: #ffffff;   
+    margin: 10px;
+    font-weight: 300;
+}
+.caixa-datas-geral{
+    width: 950px;
+    height: 90px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixa-datas1{
+    width: 230px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.quadrado{
+    width: 40px;
+    height: 40px;
+ border-radius: 5px;
+ border:1px solid darkgray;
+
+}
+.txt-datas{
+    color: black;
+}
+.txt-datas2{
+    color: darkgray;
+}
+.texto-lado-quadrado{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.caixa-btn-laranja{
+    background-color: orangered;
+    width: 170px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-boxlaranja{
+color: #ffffff;
+font-weight: bold;
+}
+.quadrado-laranja{
+    width: 30px;
+    height: 30px;
+}
+
+
+.box-section2{
+    width: 1400px;
+height: 300px;
+margin: 30px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.txt-boxdois{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.caixa-boxsection2{
+    width: 300px;
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   margin: 20px;
+   gap: 10px;
+}
+.titulo-sec2{
+    font-weight: 500;
+}
+.p2{
+    font-weight: 300;
+}
+.row{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    }
-    
-    .btn{
-        background-color: #EB662B;
-        border-radius: 55px;
-        height: 44px;
-        width: 83.3px;
-        border: none;
-        color: #ffffff;
-     }
-    
-    
-    .logo{
-    height: 25px;
-    width: 35px;
-     }
+}
 
-     .banner{
-        height: 630px;
-        width: 1600px;
-        background-image: url("./assents/img1.jpg"); /*ele adiciona uma imagem como fundo*/
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        color: #ffffff;
-        }
-        .banner-estrutura{
-            width: 400px;
-            margin: 30px;
-         }
-         
-         .section-banner {
-            display: flex;
-            justify-content: center;  /* Centraliza horizontalmente */
-            padding: 40px 0;   /* Mantém espaço ao redor */
-            color: grey;
-            }
-        
-            .titulo {
-           color: #ffffff;
-           font-size: 35px;
-           font-weight: bold;
-           }
-        
-            .estrutura-titulo{
-           justify-content: center;
-           display: flex;
-           padding: 30px;
-          }
+
+.secao-trending{
+    padding: 100px 5%;
+    background: #ffffff;
+
+}
+.cabecalho-secao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+
+}
+
+.cabecalho-secao h2{
+    font-size: 36px; 
+    color: #05073C;
+}
+
+.ver-todos{
+    color: black;
+    font-weight: 600;
+}
+
+.destinos-circulares{
+    display: flex;
+    justify-content: center;
+    gap: 40PX;
+    flex-wrap: wrap;
+}
+
+.destinos{
+    text-align: center;
+}
+
+.destino img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid white;
+
+}
+
+.destino p{
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 16px;
+      color: #05073C;
+
+
+}
+ .destino small{
+    display: block;
+      color: #05073C;
+      font-size: 15px;
+      
+ }
